@@ -7,7 +7,11 @@ function remove_thematic_actions() {
 	remove_action('thematic_header','thematic_blogtitle',3); // There seems to be an overriding error in Themativ for _blogtitle
 	remove_action('thematic_navigation_above', 'thematic_nav_above', 2);
 }
+
 add_action('init','remove_thematic_actions');
+function childtheme_override_head_scripts() {
+	// remove thematic javascripts (saving 4 http requests)
+}
 
 //	FavIcon
 function childtheme_favicon() { ?>
