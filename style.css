@@ -481,6 +481,7 @@ div.navigation {
 	background: #eee url(img/quote.png);
 	background-repeat: no-repeat;
 	background-position: 3px 13px;
+	clear: both;
 	margin-left: 15px;
 	padding-left: 38px;
 	margin-top: 2px;
